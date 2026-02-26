@@ -99,8 +99,8 @@ const ItemCard = (props) => {
                             backgroundColor: '#FFE26E',
                             color: '#1a1a1a',
                             fontWeight: 700,
-                            fontSize: '0.95rem',
-                            padding: '12px 0',
+                            fontSize: '0.8rem',
+                            padding: '8px 0',
                             borderRadius: 0,
                             textTransform: 'none',
                             letterSpacing: '0.5px',
@@ -110,7 +110,8 @@ const ItemCard = (props) => {
                             display: 'flex',
                             justifyContent: 'space-between',
                             alignItems: 'center',
-                            paddingRight: '8px',
+                            paddingRight: '6px',
+                            paddingLeft: '6px',
                             '&:hover': {
                                 backgroundColor: '#FFD700',
                                 transform: 'translateY(-2px)',
@@ -124,12 +125,12 @@ const ItemCard = (props) => {
                         }}
                     >
                         <span style={{ flex: 1, textAlign: 'center' }}>Shop Now</span>
-                        <div style={{ display: 'flex', gap: '4px' }}>
-                            <IconButton onClick={(e) => { e.stopPropagation(); handleAddToWishList(); }} sx={{ borderRadius: '20px', width: '32px', height: '32px', padding: '4px' }}>
-                                <FavoriteBorderIcon sx={{ width: '18px', height: '18px', color: '#1a1a1a' }} />
+                        <div style={{ display: 'flex', gap: '2px' }}>
+                            <IconButton onClick={(e) => { e.stopPropagation(); handleAddToWishList(); }} sx={{ borderRadius: '20px', width: '28px', height: '28px', padding: '2px' }}>
+                                <FavoriteBorderIcon sx={{ width: '14px', height: '14px', color: '#1a1a1a' }} />
                             </IconButton>
-                            <IconButton onClick={(e) => { e.stopPropagation(); handleAddToCart(); }} sx={{ borderRadius: '20px', width: '32px', height: '32px', padding: '4px' }}>
-                                <AddShoppingCartIcon sx={{ width: '18px', height: '18px', color: '#1a1a1a' }} />
+                            <IconButton onClick={(e) => { e.stopPropagation(); handleAddToCart(); }} sx={{ borderRadius: '20px', width: '28px', height: '28px', padding: '2px' }}>
+                                <AddShoppingCartIcon sx={{ width: '14px', height: '14px', color: '#1a1a1a' }} />
                             </IconButton>
                         </div>
                     </Button>
