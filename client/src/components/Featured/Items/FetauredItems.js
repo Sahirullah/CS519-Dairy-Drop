@@ -28,6 +28,9 @@ const FeaturedItems = (props) => {
                     </div>
                 }
                 </div>
+                <Link to="/all-products" className='featured__see__all__button'>
+                    See All Products
+                </Link>
             </div>
         </div>        
      );

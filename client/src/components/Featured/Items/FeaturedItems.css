@@ -96,3 +96,25 @@
         gap: 15px;
     }
 }
+
+.featured__see__all__button {
+    margin-top: 40px;
+    padding: 12px 40px;
+    background: linear-gradient(135deg, #FFE26E 0%, #FFC700 100%);
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(255, 226, 110, 0.3);
+}
+
+.featured__see__all__button:hover {
+    background: linear-gradient(135deg, #FFC700 0%, #FFB700 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 226, 110, 0.4);
+    color: #1a1a1a;
+    text-decoration: none;
+}
