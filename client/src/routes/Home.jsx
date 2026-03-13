@@ -3,6 +3,7 @@ import axios from "axios";
 import Landing from "../components/Landing/Landing";
 import FeaturedItems from "../components/Featured/Items/FetauredItems";
 import FeaturedCategories from "../components/Featured/Categories/FeaturedCategories";
+import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import CustomerSupport from "../components/CustomerSupport/CustomerSupport";
 import CustomerReview from "../components/CustomerReview/CustomerReview";
 import FAQ from "../components/FAQ/FAQ";
@@ -33,6 +34,7 @@ const Home = () => {
             <Landing />
             <FeaturedCategories />
             <FeaturedItems items={featuredItems} />
+            <WhyChooseUs />
             <CustomerSupport />
             <CustomerReview />
             <FAQ />
