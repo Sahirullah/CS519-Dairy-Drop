@@ -17,7 +17,7 @@ const FeaturedItems = (props) => {
                     {!props.items && <ReactLoading type="balls" color='#FFE26E' height={100} width={100} className='m-auto'/>}
                 { props.items && props.items.length > 0 &&
                     <div className="featured__products__card__container">
-                        {props.items.map((item, index) => (
+                        {props.items.slice(0, 8).map((item, index) => (
                             <ItemCard key={item._id || index} item={item} category="featured"/>
                         ))}
                     </div>

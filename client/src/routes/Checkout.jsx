@@ -286,7 +286,7 @@ const Checkout = () => {
                             </div>
 
                             <button type="submit" disabled={submitting} className="pay-now-btn">
-                                {submitting ? 'Processing...' : 'PAY NOW'}
+                                {submitting ? 'Processing...' : 'Order Now'}
                             </button>
                         </form>
                     </div>
